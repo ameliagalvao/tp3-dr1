@@ -1,4 +1,4 @@
-package org.example.tp3dr1.questao_5;
+package org.example.tp3dr1.questao_5_e_9;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -53,9 +53,6 @@ public class PracticeFormTest {
         // Seleciona alguns hobbies
         practiceForm.sportsCheckbox.click();
         practiceForm.readingCheckbox.click();
-
-        // Caso deseje, pode enviar uma imagem (verifique o caminho do arquivo)
-        // contactUsForm.uploadPictureInput.sendKeys("C:\\caminho\\para\\imagem.jpg");
 
         // Preenche o endereço
         practiceForm.currentAddressInput.sendKeys("123 Main Street, City, Country");
